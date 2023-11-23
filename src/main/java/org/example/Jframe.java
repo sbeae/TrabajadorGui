@@ -1,2 +1,4 @@
-public class Jframe {
+package org.example;
+
+public abstract class Jframe {
 }

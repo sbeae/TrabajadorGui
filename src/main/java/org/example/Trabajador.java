@@ -1,13 +1,15 @@
+package org.example;
+
 public class Trabajador extends Persona implements Archivo {
 
-	private string isapre;
-	private string afp;
+	private String isapre;
+	private String afp;
 
 	/**
 	 * 
 	 * @param isapre
 	 */
-	public void setIsapre(string isapre) {
+	public void setIsapre(String isapre) {
 		this.isapre = isapre;
 	}
 
@@ -15,7 +17,7 @@ public class Trabajador extends Persona implements Archivo {
 	 * 
 	 * @param isapre
 	 */
-	public string getIsapre(string isapre) {
+	public String getIsapre(String isapre) {
 		return this.isapre;
 	}
 
@@ -23,16 +25,28 @@ public class Trabajador extends Persona implements Archivo {
 	 * 
 	 * @param afp
 	 */
-	public void setAfp(string afp) {
+	public void setAfp(String afp) {
 		this.afp = afp;
 	}
 
 	/**
-	 * 
 	 * @param afp
 	 */
-	public string getAfp(string afp) {
+	public String getAfp(String afp) {
 		return this.afp;
 	}
 
+	@Override
+	public void set() {
+	}
+
+	@Override
+	public void get() {
+
+	}
+
+	@Override
+	public void add() {
+
+	}
 }

@@ -1,3 +1,7 @@
+package org.example;
+
+import javax.swing.*;
+
 public class GuiTrabajador extends Jframe implements ActionListener {
 
 	private JTextField b1editar() {
@@ -20,4 +24,8 @@ public class GuiTrabajador extends Jframe implements ActionListener {
 		throw new UnsupportedOperationException();
 	}
 
+	@Override
+	public void actionPerformed() {
+
+	}
 }
